@@ -13,15 +13,19 @@
 let a;
 console.log(a);
 
+//it does not have a value passed.
+
 
 // Example 2
 function sayHello() {
     let message = "Hello";
+
 }
 
 let hello = sayHello();
 console.log(hello);
 
+// it is undefined because it does not return the variable. The var is not accessed.
 
 // Example 3
 function sayHelloToUser(user) {
@@ -29,8 +33,11 @@ function sayHelloToUser(user) {
 }
 
 sayHelloToUser();
+// the argument has not been passed while calling the function
 
 
 // Example 4
 let arr = [1,2,3];
 console.log(arr[3]);
+
+// the array does not have index of 3. the last one is the index no 2.
