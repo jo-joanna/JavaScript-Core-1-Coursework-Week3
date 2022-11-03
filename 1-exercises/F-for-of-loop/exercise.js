@@ -20,5 +20,5 @@ for (let i=0; i<tubeStations.length; i++) {
 let str = "codeyourfuture";
 
 for (let i = 0; i < str.length; i++) {
-    console.log(str[i]);
+    console.log(str[i].toUpperCase);
 }
