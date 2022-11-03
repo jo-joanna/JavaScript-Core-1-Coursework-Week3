@@ -54,7 +54,14 @@ function headlinesWithNumbers(allArticleTitles) {
 function averageNumberOfCharacters(allArticleTitles) {
     // TODO
 
-    // in one article?
+    let totalCharacters = 0;
+
+    for(let title of allArticleTitles) {
+        totalCharacters += title.length;
+    }
+
+    return Math.round(totalCharacters / allArticleTitles.length);
+}
 }
 
 
